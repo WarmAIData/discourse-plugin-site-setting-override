@@ -1,5 +1,7 @@
-posting:
-  max_post_length:
+chat:
+  max_mentions_per_chat_message:
     client: true
-    default: 32000
-    max: 150000
+    type: integer
+    default: 5
+    max: 100
+    min: 0
