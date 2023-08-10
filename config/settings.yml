@@ -5,3 +5,8 @@ chat:
     default: 5
     max: 100
     min: 0
+
+posting:
+  max_users_notified_per_group_mention:
+    default: 500
+    client: true
